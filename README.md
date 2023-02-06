@@ -24,26 +24,30 @@ In this section, I used Python and SQLAlchemy to do a basic climate analysis and
 
 * The query results also loded into a Pandas DataFrame and the index is seted in to the date column, and sorted the DataFrame values by `date`.
 
-* Finally the result ploted by using the DataFrame `plot` method.The plot looks as follows:
+* Finally the result ploted by using the DataFrame `plot` method.See image below:
 
- ![precipitation](Images/Precipitation_Plot.png)
+ ![Precipitation](Images/percip_chart.png)
 
-* By using the Pandas the summary statistics for the precipitation data was performed, and diplayed. 
+* By using the Pandas the summary statistics for the precipitation data was performed, and displayed. 
+  
 
-### <a name="Station_Analysis"></a> Station Analysis
+  ### <ins>Station Analysis</ins>
 
-* A query is designed to calculate the total number of stations, and 9 stations found. To find the most active station list, and observation counts is sorted in descending order. Station `USC00519281` has the highest number of observations.
+* A query is designed to calculate the total number of stations, and 9 stations found. Station `USC00519281` has the highest number of observations.
 
-* A query is created to retrieve the last 12 months of temperature observation data (TOBS) and filter by the station with the highest number of observations. The Plot for the results as a histogram with `bins=12` were created and it looks as follows. 
+* A query is created to retrieve the last 12 months of temperature observation data (TOBS) and filter by the station with the highest number of observations. The Plot for the results as a histogram with `bins=12` were created, See image below. 
 
-![station-histogram](Images/station_Plot.png)
+![station-histogram](Images/tobs_chart.png)
 - - -
 
-## <a name="Step_2_Climate_App"></a> Step 2 - Climate App
+  ## <ins>Step 2 Climate App</ins>
 
-After the initial analysis was completed, a Flask API designed based on the queries already developed.
+  
+![browswer](Images/browser_page.png)
+  
+After completing step 1, a Flask API was designed which was based on the queries already developed.
 
-* The following routes are created by using Flask. To look and run the code click the following link:[app.py](app.py)
+The following routes were created by using the Flask, which can be seen in the above image. 
 
 ### <a name="Routes"></a> Routes
 
