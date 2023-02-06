@@ -1,6 +1,8 @@
 # <p align="center"> <ins>SQLalchemy-challenge</ins>
 
 ## <ins>Background</ins>
+  
+![Screen Shot 2023-02-06 at 22 06 01](https://user-images.githubusercontent.com/116304118/217098544-861e635c-9532-43f0-9b0d-1cf703b87b1b.png)
 
 After working hard, I have decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, I decided to do a climate analysis about the area. The following sections outline the steps that I took to accomplish this task.
 
